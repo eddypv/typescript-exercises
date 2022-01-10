@@ -6,7 +6,7 @@
       "strictPropertyInitialization": true,
       "strictBindCallApply": true,
       "noUnusedLocals": true,
-      "noUnusedParameters": false,
+      "noUnusedParameters": true,
       "noImplicitThis": true,
       "alwaysStrict": true,
       "esModuleInterop": true,
