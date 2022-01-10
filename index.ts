@@ -1,5 +1,5 @@
 import express  from 'express'
-import { bmiCalculator } from './bmiCalculator'
+import { bmiCalculator } from './bmi'
 
 interface ResponseBMI{
     weight:number,
