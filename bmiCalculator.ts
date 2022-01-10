@@ -14,7 +14,7 @@ const categories: Array<bmiCategory> =[
     {category:'Obese (Class II)', bmi_ini:35.0, bmi_end:39.9},
     {category:'Obese (Class III)', bmi_ini:40.0, bmi_end:9999999.0},
 ] 
-const bmiCalculator = (heigth:number, weight:number) :string => {
+export const bmiCalculator = (heigth:number, weight:number) :string => {
     if(heigth > 0 && weight > 0){
         const heigth_cm = heigth / 100;
         const bmi = (weight /(heigth_cm*heigth_cm));
